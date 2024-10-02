@@ -65,6 +65,7 @@ Users should be able to:
 
 - [Practical Guide on Implementing ‘aria-expanded’ in Web Development](https://www.a11y-collective.com/blog/aria-expanded/) - detail explanation on how the aria-expanded attribute works. Explain relationship between aria-expanded and other ARIA attributes, aria-controls and aria-haspopup.
 - [Popups, dialogs, tooltips, and popovers— UX Patterns #2](https://medium.com/design-bootcamp/popups-dialogs-tooltips-and-popovers-ux-patterns-2-939da7a1ddcd) - Explain the difference of popups, dialogs, tooltips, and popovers and when to use which one.
+- [Why are some animations slow?](https://web.dev/articles/animations-overview) - Deep article on CSS animations
 
 
 ## Author
