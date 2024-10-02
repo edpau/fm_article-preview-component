@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "typescript": "^5.6.2"
+  }, 
+  "homepage": "<https://github.com/edpau/fm_article-preview-component>",
+"scripts": {
+  "build": "tsc",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d ."
+}
+}
