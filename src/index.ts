@@ -26,6 +26,7 @@ if (shareButton && shareNav && shareButtonIcon && authorSection) {
     shareButton.dataset.state = nextState;
     shareButtonIcon.dataset.state = nextState;
     shareButton.setAttribute("aria-expanded", String(isExpanded));
+    shareNav.setAttribute("aria-hidden", String(!isExpanded));
 
     if (isMobileView() && isExpanded) {
       authorSection.style.visibility = "hidden";
