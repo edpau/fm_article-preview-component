@@ -20,6 +20,7 @@
   --color-text-card-heading: hsl(217, 19%, 35%);
   --color-text-card-paragraph: hsl(214, 17%, 51%);
   --color-text-popup: hsl(212, 23%, 69%);
+  --color-text-date: hsl(212, 23%, 69%);
 
   /* Card Colors */
   --color-card-background: hsl(0, 0%, 100%);
@@ -109,6 +110,7 @@ body {
   grid-column: 2/3;
   grid-row: 2/3;
   align-self: self-start;
+  color: var(--color-text-date);
 }
 
 .card__share-button {
